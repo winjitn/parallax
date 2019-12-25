@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img {
+  position: relative;
+  width: 100vw;
+  height: 1200px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#bottom {
+  position: absolute;
+  top: -120px;
+  z-index: 100;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.img-text {
+  position: absolute;
+  top: 40%;
+  left: 40%;
   color: white;
+  font-size: 80px;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.ctn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stars {
+  width: 80%;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  top: 800px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.grid {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 1200px;
+  border-right: solid rgb(199, 199, 199) 1px;
+  width: 1px;
+}
+
+.grid-txt1 {
+  position: absolute;
+  width: 400px;
+  top: 400px;
+  left: 250px;
+  font-size: 22px;
+}
+
+.grid-txt2 {
+  position: absolute;
+  width: 400px;
+  top: 800px;
+  right: 300px;
+  font-size: 22px;
+}
+
+#p {
+  position: absolute;
+  top: 790px;
+  font-size: 110px;
+  color: rgb(235, 235, 235);
+  z-index: -1;
+}
+
+#star1 {
+  position: absolute;
+  top: 850px;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: rgb(0, 218, 218);
+  z-index: 99;
+}
+
+#star2 {
+  position: absolute;
+  top: 950px;
+  height: 140px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: rgb(78, 40, 165);
+  z-index: 99;
+}
+
+#star3 {
+  position: absolute;
+  top: 540px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgb(0, 218, 218);
+  z-index: 99;
+}
+
+#star4 {
+  position: absolute;
+  top: 1100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(0, 218, 218);
+  z-index: 99;
+}
+
+#star5 {
+  position: absolute;
+  top: 900px;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: rgb(78, 40, 165);
+  z-index: 99;
 }
