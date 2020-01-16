@@ -46,7 +46,7 @@ body {
   display: flex;
   justify-content: center;
   height: 1200px;
-  border-right: solid rgb(199, 199, 199) 1px;
+  /* border-right: solid rgb(199, 199, 199) 1px; */
   width: 1px;
 }
 
